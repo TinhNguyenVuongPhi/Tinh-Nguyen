@@ -44,7 +44,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AbstractBattery.cs" />
+    <Compile Include="AntiChargeDisChargeBattery.cs" />
     <Compile Include="Battery.cs" />
+    <Compile Include="BatteryBoost.cs" />
+    <Compile Include="BatteryProxy.cs" />
     <Compile Include="Cell.cs" />
     <Compile Include="IBattery.cs" />
     <Compile Include="IChargeStrategy.cs" />
